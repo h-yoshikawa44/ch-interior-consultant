@@ -1,0 +1,24 @@
+{
+  "name": "ch-interior-consultant",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:h-yoshikawa44/ch-interior-consultant.git",
+  "author": "h-yoshikawa44 <43331308+h-yoshikawa44@users.noreply.github.com>",
+  "private": true,
+  "scripts": {
+    "lint-check": "yarn lint:stylelint && yarn check:prettier",
+    "lint:stylelint": "yarn run -s stylelint './css/**/*.css'",
+    "check:prettier": "yarn run -s prettier --check './**/*.{html,js,ts,json}'",
+    "fix": "yarn fix:stylelint && yarn fix:prettier",
+    "fix:stylelint": "yarn lint:stylelint --fix",
+    "fix:prettier": "yarn check:prettier --write"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recess-order": "^2.5.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0"
+  }
+}
