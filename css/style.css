@@ -1,0 +1,27 @@
+/* root
+-------------------- */
+
+:root {
+  --gray: #a9a9a9;
+
+  /* stylelint-disable value-keyword-case */
+  --font-base: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* stylelint-enable value-keyword-case */
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-base);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
