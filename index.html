@@ -26,17 +26,20 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <div class="container top-header">
+    <header class="top-header">
+      <div class="container top-header-block">
         <h1 class="top-header__site-title">This Interior</h1>
-        <nav>
-          <ul class="header-nav-list">
-            <li class="header-nav-list__item-active"><a href="#"></a>Home</li>
-            <li><a href="#"></a>Collection</li>
-            <li><a href="#"></a>About</li>
-            <li><a href="#"></a>Contact</li>
+        <nav class="header-nav">
+          <ul class="header-nav-list nav-list">
+            <li class="nav-list__item-active"><a href="#">Home</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
+        <button type="menu" class="open-menu-btn">
+          <span class="material-icons"> menu </span>
+        </button>
       </div>
     </header>
     <header class="container hero-header">
@@ -49,7 +52,11 @@
         <a href="#" class="hero-header__read-more">Read more &rarr;</a>
       </div>
       <div class="hero-header__img-block">
-        <img src="./images/photo1.png" alt="Modern interior Image" />
+        <img
+          src="./images/photo1.png"
+          alt="Modern interior Image"
+          class="hero-header__img"
+        />
         <figure class="designer-card">
           <div class="designer-card__header">
             <img
@@ -74,4 +81,17 @@
       >
     </footer>
   </body>
+  <div class="menu">
+    <div>
+      <button type="button"><span class="material-icons"> close </span></button>
+    </div>
+    <nav class="menu-nav">
+      <ul class="menu-nav-list nav-list">
+        <li class="nav-list__item-active"><a href="#">Home</a></li>
+        <li><a href="#">Collection</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 </html>
