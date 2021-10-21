@@ -23,7 +23,6 @@
       href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;1,200&family=Lora:ital,wght@0,500;0,700;1,500;1,700&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
-    <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header class="top-header">
@@ -80,18 +79,21 @@
         created by h-yoshikawa44 - devChallenges.io</small
       >
     </footer>
-  </body>
-  <div class="menu">
-    <div>
-      <button type="button"><span class="material-icons"> close </span></button>
+    <div class="menu">
+      <div>
+        <button type="button">
+          <span class="material-icons"> close </span>
+        </button>
+      </div>
+      <nav class="menu-nav">
+        <ul class="menu-nav-list nav-list">
+          <li class="nav-list__item-active"><a href="#">Home</a></li>
+          <li><a href="#">Collection</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav class="menu-nav">
-      <ul class="menu-nav-list nav-list">
-        <li class="nav-list__item-active"><a href="#">Home</a></li>
-        <li><a href="#">Collection</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+    <script type="module" src="/js/main.js"></script>
+  </body>
 </html>
