@@ -96,7 +96,7 @@ a:not(.nav-list__item-active):hover::after {
   color: var(--white);
 }
 
-.nav-list a.nav-list__link-active {
+.nav-list a.nav-list__link--active {
   font-weight: bold;
   text-decoration: underline;
   text-underline-offset: 8px;
