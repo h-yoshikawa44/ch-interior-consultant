@@ -83,7 +83,6 @@ a:not(.nav-list__item-active):hover::after {
 
 .nav-list {
   list-style: none;
-  -webkit-padding-start: 0;
   padding-inline-start: 0;
 }
 
@@ -134,7 +133,6 @@ a:not(.nav-list__item-active):hover::after {
 
 .header-nav-list {
   display: flex;
-  -moz-column-gap: 8px;
   column-gap: 8px;
 }
 
@@ -150,7 +148,6 @@ a:not(.nav-list__item-active):hover::after {
 
 .hero-header {
   display: flex;
-  -moz-column-gap: 96px;
   column-gap: 96px;
   margin-top: 144px;
 }
@@ -202,7 +199,6 @@ a:not(.nav-list__item-active):hover::after {
 
 .designer-card__header {
   display: flex;
-  -moz-column-gap: 16px;
   column-gap: 16px;
   align-items: center;
 }
@@ -211,7 +207,6 @@ a:not(.nav-list__item-active):hover::after {
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -334,7 +329,6 @@ a:not(.nav-list__item-active):hover::after {
     flex-direction: column;
     -moz-row-gap: 24px;
     row-gap: 24px;
-    -moz-column-gap: 0;
     column-gap: 0;
     margin-top: 40px;
   }
@@ -364,7 +358,6 @@ a:not(.nav-list__item-active):hover::after {
   }
 
   .designer-card__header {
-    -moz-column-gap: 12px;
     column-gap: 12px;
   }
 

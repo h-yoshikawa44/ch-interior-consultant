@@ -13,6 +13,5 @@ module.exports = {
         message: 'Expected class selector to be BEM',
       },
     ],
-    'property-no-vendor-prefix': null,
   },
 };
