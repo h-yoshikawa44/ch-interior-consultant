@@ -22,5 +22,5 @@
   },
   "html-css-class-completion.enableEmmetSupport": true,
   "eslint.packageManager": "yarn",
-  "stylelint.stylelintPath": "./node_modules/stylelint",
+  "stylelint.stylelintPath": "./node_modules/stylelint"
 }
