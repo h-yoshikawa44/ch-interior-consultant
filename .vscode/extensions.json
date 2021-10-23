@@ -7,10 +7,9 @@
     "editorconfig.editorconfig",
     "naumovs.color-highlight",
     "formulahendry.auto-rename-tag",
-    "mrmlnc.vscode-autoprefixer",
     "zignd.html-css-class-completion",
     "mkaufman.htmlhint",
-    "ritwickdey.liveserver",
+    "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "stylelint.vscode-stylelint"
   ],
