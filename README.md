@@ -8,10 +8,10 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://{your-demo-link.your-domain}">
+    <a href="https://h-yoshikawa44.github.io/ch-interior-consultant/">
       Demo
     </a>
-    <span> | </span> -->
+    <span> | </span>
     <!-- <a href="https://{your-url-to-the-solution}">
       Solution
     </a>
@@ -28,8 +28,11 @@
 
 - [Table of Contents](#table-of-contents)
 - [Overview](#overview)
+  - [Desktop](#desktop)
+  - [Mobile](#mobile)
   - [Built With](#built-with)
 - [Features](#features)
+- [learned/improved](#learnedimproved)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
@@ -37,14 +40,28 @@
 
 ## Overview
 
-(※in preparation)
+### Desktop
+
+![overview - desktop](/screenshots/desktop.png)
+
+### Mobile
+
+<img src="/screenshots/mobile.png" alt="overview - mobile" width="35%">
+
+<img src="/screenshots/mobile-menu.png" alt="overview - mobile menu" width="35%">
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
+Base
 - [HTML](https://developer.mozilla.org/ja/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/ja/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/ja/docs/Web/JavaScript)
+- [Vite](https://ja.vitejs.dev/)
+
+Other major libraries
+- [wicg-inert](https://github.com/WICG/inert)
 
 ## Features
 
@@ -52,15 +69,24 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
 
-- [ ] User story: I can see a page following the given design
-- [ ] User story: On mobile, I can see a collapsed navigation
-- [ ] User story: On mobile, when I select the hamburger menu, I can see a navigation
+- [x] User story: I can see a page following the given design
+- [x] User story: On mobile, I can see a collapsed navigation
+- [x] User story: On mobile, when I select the hamburger menu, I can see a navigation
+
+## learned/improved
+
+- basic usage of Vite.
+- Using Vite and the VSCode extension Autoprefixer together causes conflicts and hot reloading problems.
+- How to animate underline on hover.
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-(※in preparation)
+- [jQueryからTypeScript・Reactまで！Viteで始めるモダンで高速な開発環境構築](https://ics.media/entry/210708/)
+- [Webエンジニア（コーダー）向けVite環境の紹介【初心者向け解説】](https://flex-box.net/vite-for-coder/)
+- [CSS：ホバー時のアンダーラインアニメーションの実装サンプルとmixinを用いた実装方法](https://www.nxworld.net/css-hover-underline-animation-examples-and-sass-mixin.html)
+- [GitHub Actionsのworkflow_runイベントでテストを回すときの要点](https://blog.kengo-toda.jp/entry/2021/07/06/222400)
 
 ## Contact
 

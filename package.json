@@ -4,6 +4,7 @@
   "main": "index.js",
   "repository": "git@github.com:h-yoshikawa44/ch-interior-consultant.git",
   "author": "h-yoshikawa44 <43331308+h-yoshikawa44@users.noreply.github.com>",
+  "homepage": "https://h-yoshikawa44.github.io/ch-interior-consultant/",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -16,12 +17,14 @@
     "fix": "yarn fix:eslint && yarn fix:stylelint && yarn fix:prettier",
     "fix:eslint": "yarn lint:eslint --fix",
     "fix:stylelint": "yarn lint:stylelint --fix",
-    "fix:prettier": "yarn check:prettier --write"
+    "fix:prettier": "yarn check:prettier --write",
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.7",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.3.0",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.3.11",
     "prettier": "^2.4.1",
     "stylelint": "^14.0.0",
