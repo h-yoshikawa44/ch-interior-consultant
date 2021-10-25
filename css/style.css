@@ -148,12 +148,13 @@ a:not(.nav-list__item-active):hover::after {
 
 .hero-header {
   display: flex;
-  column-gap: 96px;
+  column-gap: 10%;
+  align-items: center;
   margin-top: 144px;
 }
 
 .hero-header__title {
-  margin-top: 144px;
+  margin-top: -30%;
   font-family: var(--font-lora);
   font-size: 48px;
   font-style: normal;
@@ -190,10 +191,10 @@ a:not(.nav-list__item-active):hover::after {
 
 .designer-card {
   position: relative;
+  right: -40%;
   bottom: 72px;
-  left: 35%;
-  width: 410px;
-  padding: 16px;
+  max-width: 55%;
+  padding: 16px 64px 16px 16px;
   background-color: var(--bg-color);
 }
 
@@ -263,6 +264,8 @@ a:not(.nav-list__item-active):hover::after {
   inset: 0;
   z-index: 1200;
   display: none;
+  width: 100%;
+  height: 100%;
   background-color: var(--bg-color);
 }
 
@@ -352,9 +355,9 @@ a:not(.nav-list__item-active):hover::after {
   }
 
   .designer-card {
+    right: -12%;
     bottom: 48px;
-    left: 10%;
-    width: 300px;
+    min-width: 292px;
   }
 
   .designer-card__header {
