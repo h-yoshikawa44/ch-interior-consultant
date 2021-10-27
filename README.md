@@ -32,6 +32,7 @@
   - [Mobile](#mobile)
   - [Built With](#built-with)
 - [Features](#features)
+- [How To Use](#how-to-use)
 - [learned/improved](#learnedimproved)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
@@ -58,9 +59,11 @@ Base
 - [HTML](https://developer.mozilla.org/ja/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/ja/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/ja/docs/Web/JavaScript)
-- [Vite](https://ja.vitejs.dev/)
+- [Node.js](https://nodejs.org/)：14.17.3
+- [Vite](https://ja.vitejs.dev/)：2.6.10
 
 Other major libraries
+- [material-design-icons](https://google.github.io/material-design-icons/)
 - [wicg-inert](https://github.com/WICG/inert)
 
 ## Features
@@ -72,6 +75,22 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [x] User story: I can see a page following the given design
 - [x] User story: On mobile, I can see a collapsed navigation
 - [x] User story: On mobile, when I select the hamburger menu, I can see a navigation
+
+## How To Use
+To clone and run this application, you'll need [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/download/) (which comes with [yarn](https://yarnpkg.com/)) installed on your computer. From your command line:
+
+```
+# Clone this repository
+$ git clone git@github.com:h-yoshikawa44/ch-interior-consultant.git
+or
+$ git clone git@github.com:h-yoshikawa44/ch-interior-consultant.git
+
+# Install dependencies
+$ yarn install
+
+# Run the Vite
+$ yarn dev
+```
 
 ## learned/improved
 
