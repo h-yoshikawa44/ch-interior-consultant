@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/ch-interior-consultant/',
+  base:
+    process.env.NODE_ENV === 'production' ? '/ch-interior-consultant' : './',
   server: {
     open: true,
   },
