@@ -210,8 +210,11 @@ a:not(.nav-list__item-active):hover::after {
 
 .designer-card__header {
   display: flex;
-  column-gap: 16px;
   align-items: center;
+}
+
+.designer-card__header > figcaption {
+  margin-left: 16px;
 }
 
 .designer-card__img {
@@ -389,8 +392,8 @@ a:not(.nav-list__item-active):hover::after {
     min-width: 292px;
   }
 
-  .designer-card__header {
-    column-gap: 12px;
+  .designer-card__header > figcaption {
+    margin-left: 12px;
   }
 
   .designer-card__img {
