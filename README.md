@@ -59,8 +59,8 @@ Base
 - [HTML](https://developer.mozilla.org/ja/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/ja/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/ja/docs/Web/JavaScript)
-- [Node.js](https://nodejs.org/)：14.17.3
-- [Vite](https://ja.vitejs.dev/)：2.6.10
+- [Node.js](https://nodejs.org/)：16.13.0
+- [Vite](https://ja.vitejs.dev/)：2.6.14
 
 Other major libraries
 - [material-design-icons](https://google.github.io/material-design-icons/)
@@ -81,7 +81,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com/) and [
 
 ```
 # Clone this repository
-$ git clone git@github.com:h-yoshikawa44/ch-interior-consultant.git
+$ git clone https://github.com/h-yoshikawa44/ch-interior-consultant.git
 or
 $ git clone git@github.com:h-yoshikawa44/ch-interior-consultant.git
 
