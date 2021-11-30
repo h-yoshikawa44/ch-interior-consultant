@@ -1,22 +1,32 @@
 import '../css/style.css';
 import 'wicg-inert';
 
-const topHeader = document.getElementById('top-header');
-const heroHeader = document.getElementById('hero-header');
-const footer = document.getElementById('footer');
+const contents = document.getElementById('contents');
+const menu = document.getElementById('menu');
 
-const openBtn = document.getElementById('open-menu-btn');
-openBtn.addEventListener('click', () => {
-  document.getElementById('menu').classList.add('menu__open');
-  topHeader.setAttribute('inert', true);
-  heroHeader.setAttribute('inert', true);
-  footer.setAttribute('inert', true);
-});
+/**
+ * メニューを開く
+ */
+const openMenu = () => {
+  menu.classList.add('menu--open');
+  contents.setAttribute('inert', true);
+  document.body.classList.add('overflow-hidden');
+};
 
-const closeBtn = document.getElementById('close-menu-btn');
-closeBtn.addEventListener('click', () => {
-  document.getElementById('menu').classList.remove('menu__open');
-  topHeader.removeAttribute('inert', false);
-  heroHeader.removeAttribute('inert', false);
-  footer.removeAttribute('inert', false);
+/**
+ * メニューを閉じる
+ */
+const closeMenu = () => {
+  menu.classList.remove('menu--open');
+  contents.removeAttribute('inert', false);
+  document.body.classList.remove('overflow-hidden');
+};
+
+window.addEventListener('DOMContentLoaded', () => {
+  // メニュー開閉
+  const menuOpenBtn = document.getElementById('open-menu-btn');
+  menuOpenBtn.addEventListener('click', openMenu);
+
+  const menuCloseBtn = document.getElementById('close-menu-btn');
+  menuCloseBtn.addEventListener('click', closeMenu);
 });
