@@ -21,6 +21,5 @@
     "editor.formatOnSave": true
   },
   "html-css-class-completion.enableEmmetSupport": true,
-  "eslint.packageManager": "yarn",
-  "stylelint.stylelintPath": "./node_modules/stylelint"
+  "eslint.packageManager": "yarn"
 }
