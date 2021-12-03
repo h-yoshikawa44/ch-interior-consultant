@@ -32,6 +32,12 @@ a {
   box-sizing: border-box;
 }
 
+/* load ※Chromeのページ初期読み込み時のtransition抑制対応 */
+
+.js-preload * {
+  transition: none !important;
+}
+
 /* layout */
 
 html {
@@ -77,6 +83,10 @@ a:not(.nav-list__link-active)::after {
 a:not(.nav-list__item-active):hover::after {
   transform: scale(1, 2);
   transform-origin: left top;
+}
+
+.js-overflow-hidden {
+  overflow: hidden;
 }
 
 .container {
@@ -313,7 +323,7 @@ a:not(.nav-list__item-active):hover::after {
   margin-bottom: 0;
 }
 
-.menu--open {
+.js-menu--open {
   visibility: visible;
   opacity: 100%;
   transition-delay: 0s;
