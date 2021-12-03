@@ -8,18 +8,18 @@ const menu = document.getElementById('menu');
  * メニューを開く
  */
 const openMenu = () => {
-  menu.classList.add('menu--open');
+  menu.classList.add('js-menu--open');
   contents.setAttribute('inert', true);
-  document.body.classList.add('overflow-hidden');
+  document.body.classList.add('js-overflow-hidden');
 };
 
 /**
  * メニューを閉じる
  */
 const closeMenu = () => {
-  menu.classList.remove('menu--open');
+  menu.classList.remove('js-menu--open');
   contents.removeAttribute('inert', false);
-  document.body.classList.remove('overflow-hidden');
+  document.body.classList.remove('js-overflow-hidden');
 };
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -29,4 +29,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const menuCloseBtn = document.getElementById('close-menu-btn');
   menuCloseBtn.addEventListener('click', closeMenu);
+});
+
+window.addEventListener('load', () => {
+  // Chromeでページ初期読み込み時のtrasition抑制クラスの除去
+  document
+    .getElementsByClassName('js-preload')[0]
+    .classList.remove('js-preload');
 });
