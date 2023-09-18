@@ -18,7 +18,7 @@
     "prepare": "simple-git-hooks || echo 'Can not set git hooks'"
   },
   "dependencies": {
-    "wicg-inert": "^3.1.1"
+    "wicg-inert": "^3.1.2"
   },
   "devDependencies": {
     "eslint": "^8.49.0",
