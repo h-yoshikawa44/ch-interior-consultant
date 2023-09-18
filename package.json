@@ -17,6 +17,9 @@
     "deploy": "npm run build && gh-pages -d dist",
     "prepare": "simple-git-hooks || echo 'Can not set git hooks'"
   },
+  "dependencies": {
+    "wicg-inert": "^3.1.1"
+  },
   "devDependencies": {
     "autoprefixer": "^10.3.7",
     "eslint": "^8.0.1",
@@ -33,15 +36,13 @@
     "stylelint-order": "^5.0.0",
     "vite": "^2.6.14"
   },
-  "dependencies": {
-    "wicg-inert": "^3.1.1"
-  },
   "volta": {
     "node": "18.17.1",
     "npm": "9.6.7"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
+    "pre-commit": "npx lint-staged",
+    "prepare-commit-msg": "./.githooks/prepare-commit-msg \"$@\""
   },
   "lint-staged": {
     "src/**/*.{js,ts}": [
