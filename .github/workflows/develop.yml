@@ -12,13 +12,14 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: 14.17.3
-          cache: yarn
+          node-version-file: '.node-version'
+          cache: npm
+          cache-dependency-path: './package-lock.json'
 
-      - name: Install Dependencies
-        run: yarn install
+      - name: Package Clean Install
+        run: npm ci
 
       - name: ESLint & StyleLint & Prettier
-        run: yarn lint-check
+        run: npm run lint-check

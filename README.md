@@ -77,19 +77,19 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [x] User story: On mobile, when I select the hamburger menu, I can see a navigation
 
 ## How To Use
-To clone and run this application, you'll need [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/download/) (which comes with [yarn](https://yarnpkg.com/)) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](https://www.npmjs.com/)) installed on your computer. From your command line:
 
-```
+```bash
 # Clone this repository
-$ git clone https://github.com/h-yoshikawa44/ch-interior-consultant.git
+git clone https://github.com/h-yoshikawa44/ch-interior-consultant.git
 or
-$ git clone git@github.com:h-yoshikawa44/ch-interior-consultant.git
+git clone git@github.com:h-yoshikawa44/ch-interior-consultant.git
 
 # Install dependencies
-$ yarn install
+npm install
 
 # Run the Vite
-$ yarn dev
+npm run dev
 ```
 
 ## learned/improved
