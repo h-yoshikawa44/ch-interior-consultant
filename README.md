@@ -63,6 +63,7 @@ Base
 - [Vite](https://ja.vitejs.dev/)：4.4.9
 
 Other major libraries
+- [postcss-preset-env](https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env)
 - [material-design-icons](https://google.github.io/material-design-icons/)
 - [wicg-inert](https://github.com/WICG/inert)
 
