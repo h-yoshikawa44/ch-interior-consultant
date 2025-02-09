@@ -60,7 +60,7 @@ Base
 - [CSS](https://developer.mozilla.org/ja/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/ja/docs/Web/JavaScript)
 - [Node.js](https://nodejs.org/)：22.13.1
-- [Vite](https://ja.vitejs.dev/)：4.4.9
+- [Vite](https://ja.vitejs.dev/)：6.1.0
 
 Other major libraries
 - [postcss-preset-env](https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env)
