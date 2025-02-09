@@ -3,7 +3,7 @@
 <h1 align="center">Interior Consultant</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://legacy.devchallenges.io" target="_blank">Devchallenges.io</a>.
+   Solution for a challenge from Devchallenges.io.
 </div>
 
 <div align="center">
@@ -11,16 +11,11 @@
     <a href="https://h-yoshikawa44.github.io/ch-interior-consultant/">
       Demo
     </a>
-    <span> | </span>
-    <a href="https://legacy.devchallenges.io/solutions/N7Gs8WCVYAbtkqWxomhL">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
-      Challenge
-    </a>
   </h3>
 </div>
+
+*The site is now closed, but this assignment was originally posted at `https://legacy.devchallenges.io/solutions/N7Gs8WCVYAbtkqWxomhL`.  
+（My assignment submission page at the time: `https://legacy.devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb`.）
 
 <!-- TABLE OF CONTENTS -->
 
@@ -47,9 +42,9 @@
 
 ### Mobile
 
-<img src="/screenshots/mobile.png" alt="overview - mobile" width="35%">
+<img src="./screenshots/mobile.png" alt="overview - mobile" width="35%">
 
-<img src="/screenshots/mobile-menu.png" alt="overview - mobile menu" width="35%">
+<img src="./screenshots/mobile-menu.png" alt="overview - mobile menu" width="35%">
 
 ### Built With
 
@@ -59,10 +54,11 @@ Base
 - [HTML](https://developer.mozilla.org/ja/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/ja/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/ja/docs/Web/JavaScript)
-- [Node.js](https://nodejs.org/)：18.17.1
-- [Vite](https://ja.vitejs.dev/)：4.4.9
+- [Node.js](https://nodejs.org/)：22.13.1
+- [Vite](https://ja.vitejs.dev/)：6.1.0
 
 Other major libraries
+- [postcss-preset-env](https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env)
 - [material-design-icons](https://google.github.io/material-design-icons/)
 - [wicg-inert](https://github.com/WICG/inert)
 
@@ -70,7 +66,7 @@ Other major libraries
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://legacy.devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
+This application/site was created as a submission to a DevChallenges challenge. The challenge was to build an application to complete the given user stories.
 
 - [x] User story: I can see a page following the given design
 - [x] User story: On mobile, I can see a collapsed navigation
@@ -111,4 +107,4 @@ npm run dev
 
 - Website：[h-yoshikawa44.com](https://h-yoshikawa44.com)
 - GitHub：[@h-yoshikawa44](https://github.com/h-yoshikawa44)
-- Twitter：[@yoshi44_lion](https://twitter.com/yoshi44_lion)
+- X：[@yoshi44_lion](https://x.com/yoshi44_lion)
