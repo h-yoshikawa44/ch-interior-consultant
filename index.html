@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -24,18 +24,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;1,200&family=Lora:ital,wght@0,500;0,700;1,500;1,700&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;1,200&amp;family=Lora:ital,wght@0,500;0,700;1,500;1,700&amp;family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/ch-interior-consultant/assets/index-Dj37fBDp.js"></script>
-    <link rel="stylesheet" crossorigin href="/ch-interior-consultant/assets/index-CeaZZWg2.css">
+    <script type="module" crossorigin src="/ch-interior-consultant/assets/index-Cbn37pqQ.js"></script>
+    <link rel="stylesheet" crossorigin href="/ch-interior-consultant/assets/index-Cxw4iArt.css">
   </head>
   <body class="js-preload">
     <div id="contents" class="contents">
       <header class="top-header">
         <div class="container top-header__layout">
           <h1 class="top-header__site-title">This Interior</h1>
-          <nav class="header-nav">
+          <nav aria-label="header-nav" class="header-nav">
             <ul class="header-nav-list nav-list">
               <li><a href="#" class="nav-list__link--active">Home</a></li>
               <li><a href="#">Collection</a></li>
@@ -43,53 +43,59 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </nav>
-          <button id="open-menu-btn" type="menu" class="open-menu-btn menu-btn">
+          <button
+            id="open-menu-btn"
+            type="button"
+            class="open-menu-btn menu-btn"
+          >
             <span class="material-icons"> menu </span>
           </button>
         </div>
       </header>
-      <header class="hero-header">
-        <div class="container hero-haader__layout">
-          <div class="hero-header__text-block">
-            <h2 class="hero-header__title">Modern interior</h2>
-            <p class="hero-header__content">
+      <main class="hero">
+        <div class="container hero__layout">
+          <div class="hero__text-block">
+            <h2 class="hero__title">Modern interior</h2>
+            <p class="hero__content">
               A full-Service residential &amp; commercial interior design and
               staging company offering professional organizing &amp;
               eco-services.
             </p>
-            <a href="#" class="hero-header__read-more">Read more &rarr;</a>
+            <a href="#" class="hero__read-more">Read more &rarr;</a>
           </div>
-          <div class="hero-header__img-block">
+          <div class="hero__img-block">
             <img
+              class="hero__img"
               src="/ch-interior-consultant/assets/photo1-DihQ_1n0.png"
               alt="Modern interior Image"
-              class="hero-header__img"
+              width="1474"
+              height="1110"
             />
-            <figure class="designer-card">
+            <div class="designer-card">
               <div class="designer-card__header">
                 <img
+                  class="designer-card__img"
                   src="/ch-interior-consultant/assets/photo2-BQwMLaZj.png"
                   alt="Aliza Webber Image"
-                  class="designer-card__img"
+                  width="200"
+                  height="200"
                 />
-                <figcaption>
+                <div class="designer-card__description">
                   <p class="designer-card__name">Aliza Webber</p>
-                  <small class="designer-card__description"
-                    >Interior designer</small
-                  >
-                </figcaption>
+                  <small class="designer-card__job">Interior designer</small>
+                </div>
               </div>
               <p class="designer-card__content">
                 Designed in 2020 by Aliza Webber
               </p>
-            </figure>
+            </div>
           </div>
         </div>
-      </header>
+      </main>
       <footer class="footer">
         <small class="footer__signature">
-          created by h-yoshikawa44 - devChallenges.io</small
-        >
+          created by h-yoshikawa44 - devChallenges.io
+        </small>
       </footer>
     </div>
     <div id="menu" class="container menu">
@@ -98,7 +104,7 @@
           <span class="material-icons"> close </span>
         </button>
       </div>
-      <nav class="menu-nav">
+      <nav aria-label="menu-nav" class="menu-nav">
         <ul class="menu-nav-list nav-list">
           <li><a href="#" class="nav-list__link--active">Home</a></li>
           <li><a href="#">Collection</a></li>
