@@ -58,7 +58,7 @@ div.contents {
   background-color: var(--bg-color);
 }
 
-header.hero-header {
+main.hero {
   flex: 1 0 auto;
 }
 
@@ -167,18 +167,18 @@ a:not(.nav-list__item-active):hover::after {
   display: none;
 }
 
-/* hero header */
+/* hero */
 
-.hero-header {
+.hero {
   margin-top: 144px;
 }
 
-.hero-haader__layout {
+.hero__layout {
   display: flex;
   align-items: center;
 }
 
-.hero-header__title {
+.hero__title {
   margin-top: -30%;
   font-family: var(--font-lora);
   font-size: 48px;
@@ -188,7 +188,7 @@ a:not(.nav-list__item-active):hover::after {
   color: var(--white);
 }
 
-.hero-header__content {
+.hero__content {
   margin-top: 40px;
   font-family: var(--font-monserrat);
   font-size: 24px;
@@ -198,7 +198,7 @@ a:not(.nav-list__item-active):hover::after {
   color: var(--white);
 }
 
-.hero-header__read-more {
+.hero__read-more {
   display: inline-block;
   padding: 4px 0;
   margin-top: 32px;
@@ -210,8 +210,9 @@ a:not(.nav-list__item-active):hover::after {
   color: var(--white);
 }
 
-.hero-header__img {
+.hero__img {
   max-width: 100%;
+  height: auto;
 }
 
 .designer-card {
@@ -228,7 +229,7 @@ a:not(.nav-list__item-active):hover::after {
   align-items: center;
 }
 
-.designer-card__header > figcaption {
+.designer-card__description {
   margin-left: 16px;
 }
 
@@ -248,7 +249,7 @@ a:not(.nav-list__item-active):hover::after {
   color: var(--white);
 }
 
-.designer-card__description {
+.designer-card__job {
   font-family: var(--font-monserrat);
   font-size: 12px;
   font-style: normal;
@@ -341,12 +342,12 @@ a:not(.nav-list__item-active):hover::after {
 @media (width >= 601px) {
   /* hero header */
 
-  .hero-header__text-block {
+  .hero__text-block {
     flex: 1;
     margin-right: 10%;
   }
 
-  .hero-header__img-block {
+  .hero__img-block {
     flex: 1.8;
   }
 }
@@ -369,34 +370,34 @@ a:not(.nav-list__item-active):hover::after {
     display: inline-flex;
   }
 
-  /* hero header */
+  /* hero */
 
-  .hero-header {
+  .hero {
     margin-top: 40px;
   }
 
-  .hero-haader__layout {
+  .hero__layout {
     display: flex;
     flex-direction: column;
   }
 
-  .hero-header__text-block {
+  .hero__text-block {
     margin-bottom: 24px;
   }
 
-  .hero-header__title {
+  .hero__title {
     margin-top: 0;
     font-size: 36px;
     line-height: 46px;
   }
 
-  .hero-header__content {
+  .hero__content {
     margin-top: 24px;
     font-size: 14px;
     line-height: 17px;
   }
 
-  .hero-header__read-more {
+  .hero__read-more {
     margin-top: 24px;
     font-size: 14px;
     line-height: 17px;
@@ -407,7 +408,7 @@ a:not(.nav-list__item-active):hover::after {
     min-width: 292px;
   }
 
-  .designer-card__header > figcaption {
+  .designer-card__description {
     margin-left: 12px;
   }
 
@@ -421,7 +422,7 @@ a:not(.nav-list__item-active):hover::after {
     line-height: 15px;
   }
 
-  .designer-card__description {
+  .designer-card__job {
     font-size: 10px;
     line-height: 12px;
   }
