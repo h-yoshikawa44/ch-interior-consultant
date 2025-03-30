@@ -150,6 +150,8 @@ a:not(.nav-list__item-active):hover::after {
 
 .header-nav-list {
   display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .header-nav-list > li {
